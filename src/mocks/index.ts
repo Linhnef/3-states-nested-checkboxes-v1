@@ -44,7 +44,7 @@ export const mocks : CheckBoxGroupType[] = [
                 items: [
                     {
                         label: "state 2.2.1",
-                        checked: CHECKED.UN_CHECKED,
+                        checked: CHECKED.CHECKED,
                         items: []
                     },
                 ]
