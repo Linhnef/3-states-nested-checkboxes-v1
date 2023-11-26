@@ -1,4 +1,4 @@
-import { AccordionSummary } from "@mui/material";
+import { AccordionSummary, IconButton } from "@mui/material";
 import { ChangeEvent, ReactNode, useState } from "react";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { PrimaryAccordion } from "./PrimaryAccordion";
@@ -21,7 +21,7 @@ export const AccordionExpandByClick = ({children, checked, handleParentChange, i
 
     return <PrimaryAccordion expanded={expand}>
         <AccordionSummary
-            expandIcon={<div onClick={toggleAcordion}><ExpandMoreIcon /></div>}
+            expandIcon={<IconButton onClick={toggleAcordion}><ExpandMoreIcon /></IconButton>}
         >
             <PrimaryCheckBox isExpand={expand} checked={checked} handleParentChange={handleParentChange} index={index} label={label} />
         </AccordionSummary>
