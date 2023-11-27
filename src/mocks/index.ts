@@ -21,7 +21,36 @@ export const mocks : CheckBoxGroupType[] = [
                             {
                                 label: "state 1.2.1.1",
                                 checked: CHECKED.CHECKED,
-                                items: []
+                                items: [
+                                    {
+                                        label: "state 1.2.1.1.1",
+                                        checked: CHECKED.CHECKED,
+                                        items: [
+                                            {
+                                                label: "state 1.2.1.1.1.1",
+                                                checked: CHECKED.CHECKED,
+                                            },
+                                            {
+                                                label: "state 1.2.1.1.1.2",
+                                                checked: CHECKED.CHECKED,
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        label: "state 1.2.1.1.2",
+                                        checked: CHECKED.CHECKED,
+                                        items: [
+                                            {
+                                                label: "state 1.2.1.1.2.1",
+                                                checked: CHECKED.CHECKED,
+                                            },
+                                            {
+                                                label: "state 1.2.1.1.2.2",
+                                                checked: CHECKED.CHECKED,
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
